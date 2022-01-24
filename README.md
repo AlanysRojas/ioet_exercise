@@ -1,37 +1,45 @@
-# ioet interview excercise
+# IOET Interview Excercise 🌟
 
-## Description
+
 Console Typescript application to search for all matching times of acme employees in the office.
+##  Prerequisite 💙
+- [Node.js](https://nodejs.org/es/) Installed
 
-## Methodology
-The methodology used in this project was Extreme programming, following respectively the stages of analysis, design, coding and testing.
+- [Git](https://git-scm.com/ "Git OFficial") Installed
 
-## How to run
+
+## How to run 🛠️
 1. Install dependencies `npm install`
 2. Compile project `npm run build`
 3. Run project `npm run start`
 
-## Allowed params
+## Allowed params 🚀
 By default the repository contains an .txt file but also
 allow to include the path of `.txt` 
-file that contains the acme employees ejm: <br/>
+file that contains the acme employees ejm:
 `npm run start path=../Desktop/acme_employees.info`
 
-## Examples
+## Examples ⚙️
 
-### Input
-RENE=MO10:00-12:00,TU10:00-12:00,TH01:00-03:00,SA14:00-18:00,SU20:00-21:00 <br />
-ASTRID=MO10:00-12:00,TH12:00-14:00,SU20:00-21:00 <br />
-ANDRES=MO10:00-12:00,TH12:00-14:00,SU20:00-21:00 <br />
-ALANYS=MO12:00-13:00,TH01:00-14:00,SU20:00-21:00,FR23:00-23:59 <br />
+
+### Input 
+```Bash
+RENE=MO10:00-12:00,TU10:00-12:00,TH01:00-03:00,SA14:00-18:00,SU20:00-21:00 
+ASTRID=MO10:00-12:00,TH12:00-14:00,SU20:00-21:00
+ANDRES=MO10:00-12:00,TH12:00-14:00,SU20:00-21:00 
+ALANYS=MO12:00-13:00,TH01:00-14:00,SU20:00-21:00,FR23:00-23:59
+```
 ### Output
-ALANYS-ANDRES: 3 <br />
-ALANYS-ASTRID: 3 <br />
-ALANYS-RENE: 3 <br />
-ANDRES-ASTRID: 3 <br />
-ANDRES-RENE: 2 <br />
-ASTRID-RENE: 2 <br />
+```Bash
+ALANYS-ANDRES: 3 
+ALANYS-ASTRID: 3
+ALANYS-RENE: 3
+ANDRES-ASTRID: 3 
+ANDRES-RENE: 2 
+ASTRID-RENE: 2 
+```
 
-## Test
+## How to run the Test 👷
 `npm run test`
+
 
