@@ -1,6 +1,7 @@
 import * as fs from 'fs';
 import {parseEmployeesInfo, searchEmployeesCoincidences, separateEmployeesInfo, validateInputFormat} from "./methods";
 
+
 (() => {
     const pathFromCLI = process.argv[2] ? process.argv[2].split('=')[1] : undefined
     const filePath = pathFromCLI ? pathFromCLI : `${__dirname}/../employees.txt`;
